@@ -1,0 +1,19 @@
+body {
+  /* height: 100vh; */
+}
+.grid {
+  /* background-color: black; */
+  color: white;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
+  /* grid-template-rows: repeat(4, 100px); */
+  grid-auto-flow: column;
+}
+
+.item {
+  background-color: rgb(33, 189, 189);
+}
+.item:nth-child(even) {
+  background-color: rgb(23, 92, 92);
+}
